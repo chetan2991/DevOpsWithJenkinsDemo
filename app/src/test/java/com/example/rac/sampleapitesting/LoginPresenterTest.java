@@ -1,12 +1,6 @@
 package com.example.rac.sampleapitesting;
-
-import android.util.Log;
-
 import org.junit.Test;
-import org.junit.runner.RunWith;
-
-import static org.junit.Assert.*;
-
+import static org.junit.Assert.assertEquals;
 /**
  * Example local unit test, which will execute on the development machine (host).
  *
@@ -25,4 +19,5 @@ public class LoginPresenterTest {
     {
         assertEquals("EXPECTED 4",4,5 );
     }
+
 }
