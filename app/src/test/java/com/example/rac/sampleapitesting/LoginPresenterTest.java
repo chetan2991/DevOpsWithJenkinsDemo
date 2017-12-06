@@ -17,12 +17,12 @@ public class LoginPresenterTest {
     public static String TAG  = "LOGINPRESENTERTEST";
     @Test
     public void addition_isCorrect() throws Exception {
-        assertEquals(4, 2 + 2);
+        assertEquals(4, 2 - 2);
     }
 
     @Test
     public void substraction() throws Exception
     {
-        assertEquals("EXPECTED 4",4,4 );
+        assertEquals("EXPECTED 4",4,5 );
     }
 }
